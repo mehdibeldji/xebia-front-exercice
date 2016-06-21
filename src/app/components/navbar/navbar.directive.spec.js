@@ -1,0 +1,3 @@
+describe('directive navbar', function() {
+  
+});

@@ -1,0 +1,11 @@
+.demo-card-square{
+
+	&.mdl-card {
+		width: 343px;
+		height: 500px;
+	}
+
+	> .mdl-card__title {
+		color: #fff;
+	}
+}

@@ -1,0 +1,29 @@
+$border-basket: #eee;
+$action-hover: #3F51B5;
+
+.basket-list {
+	& > td {
+		
+		& > img {
+			width: 100px;
+		}
+
+		& > a {
+
+			&:hover {
+				color: $action-hover;
+				cursor: pointer;
+			}
+
+		}
+	}
+}
+
+#total-price {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-align-items: flex-end;
+	align-items: flex-end;
+}
